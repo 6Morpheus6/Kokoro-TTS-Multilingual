@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   version: "3.7",
   title: "Kokoro-TTS-Multilingual.git",
-  description: "",
+  description: "Super fast Multilingual TTS supporting 54 voices across 8 languages.",
   icon: "icon.png",
   menu: async (kernel, info) => {
     let installed = info.exists("app/env")
@@ -86,7 +86,6 @@ module.exports = {
           text: "<div><strong>Reset</strong><div>Revert to pre-install state</div></div>",
           href: "reset.js",
           confirm: "Are you sure you wish to reset the app?"
-
         }]
       }
     } else {
