@@ -2,6 +2,7 @@ kokoro  # Official Kokoro TTS library (v1.0 model support)
 misaki  # G2P library for Kokoro (multi-language support)
 soundfile  # Audio file handling
 huggingface-hub  # Model downloads from Hugging Face
+hf-xet
 gradio==5.50.0  # Web interface
 pydub  # For audio format conversion
 espeakng-loader  # For loading espeak-ng library
