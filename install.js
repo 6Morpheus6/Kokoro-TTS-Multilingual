@@ -12,16 +12,6 @@ module.exports = {
       }
     },
     {
-      method: "script.start",
-      params: {
-        uri: "torch.js",
-        params: {
-          venv: "env",
-          path: "app",
-        }
-      }
-    },
-    {
       method: "shell.run",
       params: {
         venv: "env",
@@ -32,5 +22,15 @@ module.exports = {
         ]
       }
     },
+    {
+      method: "script.start",
+      params: {
+        uri: "torch.js",
+        params: {
+          venv: "env",
+          path: "app",
+        }
+      }
+    }
   ]
 }
